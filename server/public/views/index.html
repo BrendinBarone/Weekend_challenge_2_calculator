@@ -12,19 +12,39 @@
 <body>
   <h1>Calculator 3000</h1>
   <div class="inputs">
-    <input class="numbers" id="numberX"/> <br />
-    <input class="number" id="numberY"/> <br />
-    <div class="opperator">
-      <button class="opperatorButton" id="addButton">+</button>
-      <button class="opperatorButton" id="subtractButton">-</button>
-      <button class="opperatorButton" id="multiplyButton">*</button>
-      <button class="opperatorButton" id="divideButton">/</button>
-      <button class="opperatorButton" id="equalsButton">=</button>
+    <!-- <input class="numbers" id="numberX"/> <br />
+    <input class="number" id="numberY"/> <br /> -->
+    <div id="inputField">
+    </div>
+    <div class="numbers">
+      <button class="numberButton" id="num7">7</button>
+      <button class="numberButton" id="num8">8</button>
+      <button class="numberButton" id="num9">9</button>
+      <button class="opperatorButton" id="add">+</button><br />
+      <button class="numberButton" id="num4">4</button>
+      <button class="numberButton" id="num5">5</button>
+      <button class="numberButton" id="num6">6</button>
+      <button class="opperatorButton" id="subtract">-</button><br />
+      <button class="numberButton" id="num1">1</button>
+      <button class="numberButton" id="num2">2</button>
+      <button class="numberButton" id="num3">3</button>
+      <button class="opperatorButton" id="multiply">*</button><br />
+      <button id="clear">C</button>
+      <button class="numberButton" id="num0">0</button>
+      <button class="opperatorButton" id="equals">=</button>
+      <button class="opperatorButton" id="divide">/</button>
     </div>
   </div>
   <div id="answerArea">
-    <h2>And the Answer is... <span id="answer"></span>!!!!!</h2>
+    <h2>The Answer is: <span id="answer"></span></h2>
     <button id="newMath" type="button" >New Equation</button>
   </div>
 </body>
 </html>
+
+
+<!-- <form>
+<input type="text" class="numbers" id="numberX"> <br>
+<input type="text" class="number" id="numberY"> <br>
+<input type="submit" value="=">
+</form> -->

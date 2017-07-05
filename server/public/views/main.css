@@ -1,6 +1,19 @@
 body{
   background-color: #363636;
 }
+#inputField {
+  height: 50px;
+  width: 200px;
+  background-color: #096778;
+  border-color: #0fa;
+  border-radius: 31px;
+  border-width: medium;
+  font-family: 'Exo', sans-serif;
+  font-size: 48px;
+  text-align: center;
+  color: #0fa;
+  margin-bottom: 5px;
+}
 button {
   background: #00fff2;
   background-image: -webkit-linear-gradient(top, #00fff2, #0099ff);
@@ -17,6 +30,8 @@ button {
   font-size: 25px;
   padding: 5px 10px 5px 10px;
   text-decoration: none;
+  margin-left: 7px;
+  margin-bottom: 5px;
 }
 
 button:hover {
@@ -28,22 +43,15 @@ button:hover {
   background-image: linear-gradient(to bottom, #096778, #00fff2);
   text-decoration: none;
 }
-input {
-  text-align: center;
-  font-size: 24px;
-  color: #0fa;
-  width: 200px;
-  height: 50px;
-  background-color: #096778;
-  margin-bottom: 5px;
-}
 h1 {
   color: #0fa;
   font-family: 'Exo', sans-serif;
+  font-size: 42px;
 }
 h2 {
-  color: #0fa;
+  color: #09ddaa;
   font-family: 'Exo', sans-serif;
+  font-size: 36px;
 }
 #answerArea {
   display: none;
